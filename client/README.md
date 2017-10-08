@@ -9,4 +9,3 @@
 1. Clone the repository: `git clone git@github.com:brianoconner777/ScalableChatApp.git`
 2. Install the NodeJS dependencies: `npm install`.
 3. Run the gulp build task: `npm start`.
-
