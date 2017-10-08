@@ -4,7 +4,6 @@
   "license": "MIT",
   "description": "An AngularJS demo of the bootstrap-admin-ui using ES6/webpack",
   "author": "Saurabh Garg",
-
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
