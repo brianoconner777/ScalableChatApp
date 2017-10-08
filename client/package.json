@@ -3,15 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "An AngularJS demo of the bootstrap-admin-ui using ES6/webpack",
-  "author": "Bram Borggreve <borggreve@gmail.com>",
-  "homepage": "https://github.com/beeman/bootstrap-admin-angular",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/beeman/bootstrap-admin-angular.git"
-  },
-  "bugs": {
-    "url": "https://github.com/beeman/bootstrap-admin-angular/issues"
-  },
+  "author": "Saurabh Garg",
+
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
@@ -20,16 +13,20 @@
     "start": "npm run server"
   },
   "dependencies": {
-    "angular": "^1.5.0",
-    "angular-cookies": "^1.5.3",
-    "angular-resource": "^1.5.3",
-    "angular-socket-io": "^0.7.0",
-    "angular-ui-bootstrap": "^1.2.5",
-    "angular-ui-router": "^0.2.18",
-    "bootstrap": "^3.3.6",
-    "bootstrap-admin-ui": "^1.0.0",
-    "font-awesome": "^4.5.0",
-    "socket.io-client": "^1.4.5"
+    "angular": "1.5.3",
+    "angular-cookies": "1.5.3",
+    "angular-formly": "8.2.0",
+    "angular-formly-templates-bootstrap": "6.3.2",
+    "angular-resource": "1.5.3",
+    "angular-sanitize": "1.5.3",
+    "angular-socket-io": "0.7.0",
+    "angular-ui-bootstrap": "1.2.5",
+    "angular-ui-router": "1.0.0-alpha.1",
+    "api-check": "7.5.5",
+    "bootstrap": "3.3.6",
+    "bootstrap-admin-ui": "1.0.0",
+    "font-awesome": "4.5.0",
+    "socket.io-client": "1.4.5"
   },
   "devDependencies": {
     "angular-mocks": "^1.5.0",
