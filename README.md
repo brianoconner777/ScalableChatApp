@@ -1,6 +1,6 @@
 # loopback-angular-chat
 
- chat app built with LoopBack, Angular and Socket.IO
+Experimental chat app built with LoopBack, Angular and Socket.IO
 
 # Requirements
 
@@ -14,6 +14,7 @@ The installation is
     $ git clone https://github.com/brianoconner777/ScalableChatApp.git
     $ cd ScalableChatApp
     $ npm install
+
 
 
 ## Starting the server
