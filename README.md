@@ -15,7 +15,6 @@ The installation is
     $ cd ScalableChatApp
     $ npm install
 
-
 ## Starting the server
 
 From inside the project directory run
